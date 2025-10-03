@@ -1,0 +1,32 @@
+sign_language_detection:
+  camera_id: 0
+  data_directory: "data/images"
+  capture_count: 5
+  delay_between_captures: 3 # seconds
+  no_of_classes: 11
+  class_names:
+    - Hello
+    - ThankYou
+    - "Yes"
+    - "No"
+    - Please
+    - Sorry
+    - Help
+    - Friend
+    - ILoveYou
+    - Bathroom
+    - GoodBye
+  class_colors:
+      Hello: [255, 0, 0]       # Blue
+      ThankYou: [0, 255, 0]    # Green
+      "Yes": [0, 0, 255]         # Red
+      "No": [255, 255, 0]        # Cyan
+      Please: [255, 0, 255]    # Magenta
+      Sorry: [0, 255, 255]     # Yellow
+      Help: [128, 0, 0]        # Maroon
+      Friend: [0, 128, 0]      # Dark Green
+      ILoveYou: [0, 0, 128]    # Navy
+      Bathroom: [128, 128, 0]  # Olive
+      GoodBye: [128, 0, 128]   # Purple
+
+

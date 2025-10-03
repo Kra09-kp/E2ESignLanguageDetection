@@ -1,0 +1,25 @@
+[project]
+name = "signlanguagedetection"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyyaml>=6.0.3",
+]
+
+[dependency-groups]
+dev = [
+    "numpy>=2.3.3",
+    "opencv-python>=4.11.0.86",
+    "rich>=14.1.0",
+    "signlanguagedetection",
+]
+
+[tool.uv.workspace]
+members = [
+    ".",
+]
+
+[tool.uv.sources]
+signlanguagedetection = { workspace = true }

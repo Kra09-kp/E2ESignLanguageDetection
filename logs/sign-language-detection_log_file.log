@@ -1,0 +1,51 @@
+[2025-10-02 14:55:19,303] (INFO): 📋 Logger initialized for project: sign-language-detection
+[2025-10-02 14:55:19,304] (INFO): Creating virtual environment...
+[2025-10-02 14:55:24,142] (INFO): 🎉 UV initialized successfully.
+[2025-10-02 14:55:24,502] (INFO): ✅ Virtual environment created.
+[2025-10-02 14:55:24,504] (INFO): 🔗 Virtual environment activated.
+[2025-10-02 14:55:24,504] (INFO): 🚧 Creating file structure for sign-language-detection...
+[2025-10-02 14:55:24,505] (INFO): 📄 Created file: .github/workflows/main.yaml
+[2025-10-02 14:55:24,505] (INFO): 📄 Created file: src/sign-language-detection/__init__.py
+[2025-10-02 14:55:24,505] (INFO): 📄 Created file: src/sign-language-detection/components/__init__.py
+[2025-10-02 14:55:24,506] (INFO): 📄 Created file: src/sign-language-detection/config/__init__.py
+[2025-10-02 14:55:24,506] (INFO): 📄 Created file: src/sign-language-detection/config/configuration.py
+[2025-10-02 14:55:24,506] (INFO): 📄 Created file: src/sign-language-detection/utils/__init__.py
+[2025-10-02 14:55:24,507] (INFO): 📄 Created file: src/sign-language-detection/pipeline/__init__.py
+[2025-10-02 14:55:24,507] (INFO): 📄 Created file: src/sign-language-detection/entity/__init__.py
+[2025-10-02 14:55:24,508] (INFO): 📄 Created file: src/sign-language-detection/constants/__init__.py
+[2025-10-02 14:55:24,508] (INFO): 📄 Created file: config/config.yaml
+[2025-10-02 14:55:24,509] (INFO): 📄 Created file: dvc.yaml
+[2025-10-02 14:55:24,509] (INFO): 📄 Created file: params.yaml
+[2025-10-02 14:55:24,510] (INFO): 📄 Created file: requirements.txt
+[2025-10-02 14:55:24,510] (INFO): 📄 Created file: setup.py
+[2025-10-02 14:55:24,511] (INFO): ⚠️ File already exists: main.py, skipping.
+[2025-10-02 14:55:24,511] (INFO): 📄 Created file: notebooks/trial.ipynb
+[2025-10-02 14:55:24,512] (INFO): 📄 Created file: .env
+[2025-10-02 14:55:24,512] (INFO): 📄 Created file: Dockerfile
+[2025-10-02 14:55:24,512] (INFO): 📄 Created file: README.md
+[2025-10-02 14:55:24,513] (INFO): 🌐 Web framework selection started.
+[2025-10-02 14:55:27,264] (INFO): 🚀 Creating FastAPI project structure...
+[2025-10-02 14:55:27,265] (INFO): 📁 Created directory: app
+[2025-10-02 14:55:27,268] (INFO): 📄 Created file: app/main.py
+[2025-10-02 14:55:27,269] (INFO): 📁 Created directory: app
+[2025-10-02 14:55:27,271] (INFO): 📄 Created file: app/__init__.py
+[2025-10-02 14:55:27,271] (INFO): 📁 Created directory: app
+[2025-10-02 14:55:27,271] (INFO): 📄 Created file: app/__main__.py
+[2025-10-02 14:55:27,272] (INFO): 📁 Created directory: app/static/css
+[2025-10-02 14:55:27,272] (INFO): 📄 Created file: app/static/css/style.css
+[2025-10-02 14:55:27,273] (INFO): 📁 Created directory: app/static/js
+[2025-10-02 14:55:27,273] (INFO): 📄 Created file: app/static/js/script.js
+[2025-10-02 14:55:27,273] (INFO): 📁 Created directory: app/static/image
+[2025-10-02 14:55:27,274] (INFO): 📄 Created file: app/static/image/.gitkeep
+[2025-10-02 14:55:27,274] (INFO): 📁 Created directory: app/routers
+[2025-10-02 14:55:27,274] (INFO): 📄 Created file: app/routers/__init__.py
+[2025-10-02 14:55:27,274] (INFO): 📁 Created directory: app/templates
+[2025-10-02 14:55:27,275] (INFO): 📄 Created file: app/templates/index.html
+[2025-10-02 14:55:27,275] (INFO): 📁 Created directory: app/services
+[2025-10-02 14:55:27,275] (INFO): 📄 Created file: app/services/__init__.py
+[2025-10-02 14:55:27,275] (INFO): 📁 Created directory: app/model
+[2025-10-02 14:55:27,276] (INFO): 📄 Created file: app/model/__init__.py
+[2025-10-02 14:55:27,276] (INFO): 📁 Created directory: app
+[2025-10-02 14:55:27,276] (INFO): 📄 Created file: app/config.py
+[2025-10-02 14:55:27,276] (INFO): ✅ Web framework setup complete.
+[2025-10-02 14:55:27,276] (INFO): 📂 Project structure created successfully.
