@@ -8,7 +8,7 @@ def main():
         config = ConfigurationManager()
         capture_image = CaptureImage(config)
 
-        capture_image.run(num_images=15)
+        capture_image.run(num_images=5)
         
         logger.info("Image capture process completed.")
     except AppException as e:

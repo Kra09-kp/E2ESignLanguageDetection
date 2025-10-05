@@ -39,11 +39,6 @@ class CaptureImage:
                     raise Exception("Failed to capture image from camera.")
                     
 
-                # put text on frame
-                cv.putText(frame,f"Capturing Image for {class_name}",
-                        (0,25),
-                        cv.FONT_HERSHEY_SIMPLEX,1,
-                        (0,255,0),1,cv.LINE_AA) 
                 # Display the frame
                 cv.imshow('Capture Image', frame)
                 #  generate unique filename
@@ -77,7 +72,7 @@ class CaptureImage:
             total_images = num_images * len(self.config.class_names)
             logger.info(f"Total images to capture: {total_images}")
             total_captured = 0
-            for class_name in self.config.class_names[:1]:
+            for class_name in self.config.class_names:
                 logger.capture_class_start(class_name, num_images)
 
                 # create progress bar  for this class

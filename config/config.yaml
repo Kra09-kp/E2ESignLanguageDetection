@@ -1,6 +1,6 @@
 sign_language_detection:
   camera_id: 0
-  data_directory: "data/images"
+  data_directory: "data/train/images" # for training data 
   capture_count: 5
   delay_between_captures: 3 # seconds
   no_of_classes: 11
